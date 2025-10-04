@@ -51,24 +51,18 @@ pointer-events: none;
 100% { transform: translateX(100%) rotate(25deg);}
 }
 
-/* Logo */
+/* Logo inside header */
 .logo {
-<header style="display: flex; align-items: center; gap: 20px; margin-bottom: 40px;">
-<!-- Logo now inside header flex -->
-<div class="logo" style="width:80px; height:80px; border-radius:12px; background: url('https://media.tenor.com/yDsGMP5KNRcAAAAM/money-rain.gif') center/cover no-repeat; box-shadow: 0 4px 15px rgba(255,215,0,0.2); animation: glow 1.5s ease-in-out infinite alternate;"></div>
-
-<div>
-<h1>CashFlow <span class="muted">(CFS)</span></h1>
-<div class="muted">Community Token — pump.fun experiment</div>
-</div>
-</header>
-
-<style>
+width: 80px;
+height: 80px;
+border-radius: 12px;
+background: url('https://media.tenor.com/yDsGMP5KNRcAAAAM/money-rain.gif') center/cover no-repeat;
+box-shadow: 0 4px 15px rgba(255,215,0,0.2);
+animation: glow 1.5s ease-in-out infinite alternate;
+}
 @keyframes glow {
 0% { box-shadow: 0 0 5px rgba(255,215,0,0.2); }
 100% { box-shadow: 0 0 15px rgba(255,215,0,0.6); }
-}
-</style>
 }
 
 /* Header */
@@ -117,6 +111,7 @@ pre { background: #0f1724; color: #e6eef8; padding: 12px; border-radius: 8px; ov
 <div class="shimmer"></div>
 
 <header>
+<!-- Logo inside header flex -->
 <div class="logo"></div>
 <div>
 <h1>CashFlow <span class="muted">(CFS)</span></h1>
@@ -146,15 +141,17 @@ pre { background: #0f1724; color: #e6eef8; padding: 12px; border-radius: 8px; ov
 
 <div class="card">
 <h2>Whitepaper & How to Buy</h2>
-<p><a class="button" href="YOUR_WHITEPAPER_LINK_HERE" target="_blank" rel="noopener">View Whitepaper</a></p>
+<p>
+<a class="button" href="YOUR_WHITEPAPER_LINK_HERE" target="_blank" rel="noopener noreferrer">View Whitepaper</a>
+</p>
 <ol>
 <li>Open <strong>Phantom</strong> or <strong>Jupiter</strong>.</li>
 <li>Paste the mint address: <code>DVrgc51Y5Wxb9oF63y9m5rwXhua8r2c4MYzUsHXhpump</code>.</li>
 <li>Check swap preview before confirming.</li>
 </ol>
 <p>
-<a class="button" href="https://solscan.io/token/DVrgc51Y5Wxb9oF63y9m5rwXhua8r2c4MYzUsHXhpump" target="_blank" rel="noopener">View on Solscan</a>
-<a class="button" href="https://jup.ag/swap" target="_blank" rel="noopener">Buy on Jupiter</a>
+<a class="button" href="https://solscan.io/token/DVrgc51Y5Wxb9oF63y9m5rwXhua8r2c4MYzUsHXhpump" target="_blank" rel="noopener noreferrer">View on Solscan</a>
+<a class="button" href="https://jup.ag/swap" target="_blank" rel="noopener noreferrer">Buy on Jupiter</a>
 </p>
 </div>
 
