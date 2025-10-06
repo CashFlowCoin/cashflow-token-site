@@ -1,0 +1,11 @@
+{
+"name": "CashFlow Coin",
+"symbol": "CSF",
+"description": "CashFlow Coin (CSF) is a community-driven token on Solana designed to promote long-term growth and fair participation. Created on Pump.fun, our goal is to build a transparent and rewarding ecosystem.",
+"image": "https://cashflowcoin.github.io/cashflow-token-site/logo.png",
+"extensions": {
+"website": "https://cashflowcoin.github.io/cashflow-token-site/",
+"twitter": "https://x.com/cashflowcoin25"
+},
+"tags": ["community", "solana", "pumpfun", "defi"]
+}
